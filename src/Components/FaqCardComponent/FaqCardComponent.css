@@ -1,0 +1,8 @@
+@media(min-width:1020px)
+{
+  .card-container{
+    position: absolute;
+    top:50px;
+    left: 350px;
+  }
+}
