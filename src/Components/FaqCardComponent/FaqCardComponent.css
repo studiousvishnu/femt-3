@@ -1,8 +1,23 @@
-@media(min-width:1020px)
-{
-  .card-container{
-    position: absolute;
-    top:50px;
-    left: 350px;
+
+  @media (min-width:992px)
+  {
+    .card-container{
+      top: -180px;
+    }
   }
-}
+
+  @media(min-width:576px)
+  {
+    
+    .card-container{
+      top: -90px;
+    }
+  }
+  @media(min-width:320px)
+  {
+    
+    .card-container{
+      top: -50px;
+    }
+    
+  }

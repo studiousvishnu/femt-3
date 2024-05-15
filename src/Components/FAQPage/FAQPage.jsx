@@ -3,10 +3,10 @@ import "./FAQPage.css";
 const FAQPage = () => {
   return (
     <>
-      <div className="container-fluid  ps-0 pe-0 position-relative ">
+      <div className="container-fluid  ps-0 pe-0 position-relative  ">
         <img
           src="./src/assets/background-pattern-desktop.svg"
-          className=""
+          className="nav-container"
           style={{ width: "100%" }}
           alt=""
         />

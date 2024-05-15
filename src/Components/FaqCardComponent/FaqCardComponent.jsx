@@ -2,16 +2,15 @@ import "./FaqCardComponent.css";
 
 const FaqCardComponent = () => {
   return (
-    <div className="container  ">
+    <div className="container position-relative">
       <div className="row">
-        <div className="col-lg-4"></div>
-        <div className="col-lg-5 bg-white rounded-4 p-5  card-container ">
+        <div className="col-lg-6 col-11 pe-1 ps-0 px-md-4  col-md-9 bg-white rounded-4 p-5  card-container start-50 translate-middle-x position-absolute">
           <div className="heading d-flex align-items-center    ">
             <img src="./src/assets/icon-star.svg" alt="" className="me-2" />
             <h1 className="fw-bold text-center text-lg-start">FAQs</h1>
           </div>
           <div className="content d-flex align-items-center ">
-            <h5 className="fw-bold d-flex mt-3 me-4 ms-3">
+            <h5 className="fw-bold d-flex mt-3 me-lg-4 ms-3">
               What is Frontend Mentor, and how Will it help me?
             </h5>
             <img
@@ -64,7 +63,6 @@ const FaqCardComponent = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-3"></div>
       </div>
     </div>
   );
